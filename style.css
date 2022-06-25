@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Orbitron:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    background-color: #04082e;
+    justify-content: center;
+    align-items: center;
+    font-family: 'orbitron', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.h-name{
+    text-align: center;
+    
+}
+
+.container{
+    width: 320px;
+    background-color:#eebd6b;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    justify-content: center; 
+    justify-content: space-around;
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: px 0px 10px 10px rgba(4, 246, 254, 0.1);
+    font-family: orbitron system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.col{
+    padding: 20px 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px #dcb70068;
+    
+}
+.button{
+    padding: 15px 2;
+    margin: 10px 8px;
+    height: 50px;
+    width: 55px;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    justify-content: center;
+    align-items: center;
+    
+}
+ /* .button:hover{
+    color: #fded81;
+    background-color: #b07200;
+    transition: .2s ease;
+}  */
+/* .btn-s{
+    padding: 15px 15px 15px 18px;
+} */
+.col input{
+    width: 88%;
+    height: 45px;
+    margin: 25px 10px 15px 10px;
+    font-size: 40px;
+    padding: 5px;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
